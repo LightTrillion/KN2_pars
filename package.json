@@ -1,0 +1,22 @@
+{
+  "name": "housing-board-vue",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "SPA на Vue для просмотра объявлений об аренде жилья + парсер kvartirant.ru",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "parse": "node scripts/parse.js"
+  },
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0",
+    "vite": "^6.0.7"
+  }
+}
